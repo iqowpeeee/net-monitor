@@ -1,0 +1,13 @@
+hosts:
+  - name: Yandex
+    address: ya.ru
+    ports: [443]
+    check_ssl: true
+  - name: GitHub
+    address: github.com
+    ports: [443]
+    check_ssl: true
+  - name: Google DNS
+    address: 8.8.8.8
+    ports: [53]
+    check_ssl: false

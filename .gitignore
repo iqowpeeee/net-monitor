@@ -1,0 +1,7 @@
+.env
+state.json
+history.json
+*.log
+__pycache__/
+*.pyc
+mutes.json
